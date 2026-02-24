@@ -1,0 +1,23 @@
+{
+    "name": "mas/ali",
+    "description": "PHP framework by Mas Ali",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mas Ali",
+            "email": "mas.ali@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mas\\Ali\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
